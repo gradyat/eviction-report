@@ -12,7 +12,7 @@ source("analysis.R")
 This report focuses on evictions in San Francisco. The data set contained `r num_evictions` of eviction notices.
 
 ## Zip code analysis
-Here is a talbe of the 10 zip codes with the highest number of evictions.
+Here is a table of the 10 zip codes with the highest number of evictions.
 
 ```{r}
 kable(by_zip, col.names = c("Zip Code", "Number of Evictions"))
